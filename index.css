@@ -1,0 +1,48 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+}
+
+/* LAYOUT */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* TYPOGRAPHY */
+h1, p {
+    color: white;
+}
+
+/* COMPONENTS */
+.nav-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+.nav-menu a {
+    font-size: 2rem;
+    color: white; 
+}
+
+.section-menu-item__text-1,
+.section-menu-item__text-2 {
+    color: white;
+}
+
+/* COMPONENTS - Hot */
+
+.hot {
+    background-image: url(assets/hot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
