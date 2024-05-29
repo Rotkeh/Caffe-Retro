@@ -21,6 +21,11 @@
 /* TYPOGRAPHY */
 p {
     color: white;
+    font-family: "Poiret One", sans-serif;
+}
+
+h1, a {
+    font-family: "Spirax", sans-serif;
 }
 
 /* COMPONENTS */
@@ -31,28 +36,45 @@ p {
     display: flex;
     justify-content: center;
     gap: 3em;
+    background-color:rgba(139, 0, 0, 0.15);
 }
 
 .nav-menu a {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white; 
+    margin: 0.5em 0;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .section__heading {
-    font-size: 5rem;
+    font-size: 6rem;
     color: darkred;
+    font-weight: 700;
 }
 
 .section__text-1,
 .section__text-2 {
     background-color: rgba(139, 0, 0, 0.7);
-    padding: 0.5em 3em;
-    font-size: 2rem;
+    padding: 0.7em 0;
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+}
+
+.section__text-1 {
+    align-self: flex-start;
+    margin-left: 10%;
+}
+
+.section__text-2 {
+    align-self: flex-end;
+    margin-right: 10%;
 }
 
 .section-menu {
-    width: 40em;
-    background-color: rgba(61, 61, 61, 0.7);
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 1em 3em;
 }
 
@@ -64,7 +86,8 @@ p {
 .section-menu-item__text-1,
 .section-menu-item__text-2 {
     color: white;
-    font-size: 2rem;
+    font-size: 1.4rem;
+    font-family: "Poiret One", sans-serif;
 }
 
 /* COMPONENTS - Hot */
@@ -74,4 +97,6 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    box-sizing: content-box;
+    border-bottom: 1.5em solid darkred;
 }
