@@ -36,7 +36,7 @@ h1, a {
     display: flex;
     justify-content: center;
     gap: 3em;
-    background-color:rgba(139, 0, 0, 0.15);
+    background-color:rgba(36, 10, 10, 0.7);
 }
 
 .nav-menu a {
@@ -45,6 +45,13 @@ h1, a {
     margin: 0.5em 0;
     text-decoration: none;
     font-weight: 500;
+}
+
+.section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: content-box;
 }
 
 .section__heading {
@@ -92,11 +99,16 @@ h1, a {
 
 /* COMPONENTS - Hot */
 
-.hot {
+#hot {
     background-image: url(assets/hot.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-sizing: content-box;
     border-bottom: 1.5em solid darkred;
+}
+
+#juicy {
+    background-image: url(assets/juicy.jpg);
+    border-bottom: 1.5em solid darkred;
+}
+
+#cosy {
+    background-image: url(assets/cosy.jpg);
 }
